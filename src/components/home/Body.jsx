@@ -1,8 +1,15 @@
 import React from "react";
+import About from "./About";
+import Services from "./Services";
+import Contact from "./Contact";
 
 function Body() {
    return (
-      <h1 className="text-red-500">Body</h1>
+      <main>
+         <About />
+         <Services />
+         <Contact />
+      </main>
    );
 }
 

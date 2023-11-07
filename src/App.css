@@ -1,0 +1,5 @@
+.hero--section-container {
+   background-image:url("../src/assets/home.jpg");
+   height:100vh;
+   background-size:cover;
+}

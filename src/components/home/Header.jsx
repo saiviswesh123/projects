@@ -1,28 +1,50 @@
 import React from "react";
+import { useState } from "react";
 import "../../styles/header.style.css";
-import hamburger from "../../assets/hamburger.png";
 
 function Header() {
-  const [hide, setHide] = React.useState(true);
+  const [hide, setHide] = useState(true);
 
-  function handleHide() {
+  const handleHide = () => {
     setHide((prevState) => !prevState);
-  }
+  };
 
   return (
-    <nav className="bg-black p-5">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="text-white text-xl font-semibold">
-          <h1>AeroBooker</h1>
+    <nav className="bg-black p-4">
+      <div className="text-white font-semibold">
+        <div className="flex justify-end font-bold md:hidden">
+          <h1 className="text-xl main-title p-3">AeroBooker</h1>
+
+          <div className="">
+            <button
+              className="text-white text-xl justify-end hamburger-icon"
+              onClick={handleHide}
+            >
+              &#9776;
+            </button>
+          </div>
         </div>
-        <div className="text-white space-x-4">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-        </div>
-        <div className="md:hidden"> 
-            <button></button>
+
+        <div className="md:flex">
+          {hide && (
+            <ol className="mt-5 p-3">
+              <li className="m-2">
+                <a href="#">Home</a>
+              </li>
+              <li className="m-2">
+                <a href="#">Flights Available</a>
+              </li>
+              <li className="m-2">
+                <a href="#">Book Ticket</a>
+              </li>
+              <li className="m-2">
+                <a href="#">Boarding</a>
+              </li>
+              <li className="m-2">
+                <a href="#">Feedback</a>
+              </li>
+            </ol>
+          )}
         </div>
       </div>
     </nav>
