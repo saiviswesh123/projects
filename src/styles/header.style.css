@@ -1,0 +1,36 @@
+* {
+   box-sizing:border-box;
+}
+
+.navbar {
+   background-color:black;
+   height:10vh;
+   background-size:cover;
+   display:flex;
+   align-items:center;
+   padding:10px;  
+}
+
+.navbar-increase-height {
+   height:500px;
+}
+
+.navbar--title {
+   color:white;
+   font-family:Agbalumo;   
+   padding-left:20px;
+   font-size:20px;
+}
+
+ul {
+   color:white;
+   display:flex;
+   align-items:center;
+   
+}
+
+ul > li {
+   list-style:none;
+   margin:10px;
+   font-family:"Roboto";
+}
