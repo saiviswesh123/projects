@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../../styles/header.style.css";
 
 function Header() {
-  const [hide, setHide] = useState(true);
+  const [hide, setHide] = useState(false);
 
   const handleHide = () => {
     setHide((prevState) => !prevState);
