@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../../styles/header.style.css";
 
 function Header() {
-  const [hide, setHide] = useState(false);
+  const [hide, setHide] = useState(true);
 
   const handleHide = () => {
     setHide((prevState) => !prevState);
@@ -12,12 +12,13 @@ function Header() {
   return (
     <nav className="bg-black p-4">
       <div className="text-white font-semibold">
-        <div className="flex justify-end font-bold md:hidden">
-          <h1 className="text-xl main-title p-3">AeroBooker</h1>
-
-          <div className="">
+        <div className="flex font-bold md:hidden">
+          <div className="font-bold">
+            <h1 className="text-xl p-3">AeroBooker</h1>
+          </div>
+          <div className="w-full flex justify-end">
             <button
-              className="text-white text-xl justify-end hamburger-icon"
+              className="text-white text-xl md:hidden ml-5"
               onClick={handleHide}
             >
               &#9776;
@@ -27,7 +28,7 @@ function Header() {
 
         <div className="md:flex">
           {hide && (
-            <ol className="mt-5 p-3">
+            <ol className="mt-4 p-3">
               <li className="m-2">
                 <a href="#">Home</a>
               </li>
