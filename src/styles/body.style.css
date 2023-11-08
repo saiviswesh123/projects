@@ -1,8 +1,10 @@
 
 /* about us section styles */
-.about-us-section-container {
-   width:18rem;
-}
+/* .about-us-section-container {   
+   display:flex;
+   align-items:center;
+   justify-content:center;
+} */
 
 .about-us-section-title {
   font-family:"Roboto";

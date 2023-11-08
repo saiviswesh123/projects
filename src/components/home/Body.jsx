@@ -6,13 +6,12 @@ import Contact from "./Contact";
 import "../../styles/body.style.css";
 
 function Body() {
-   return (
-      <main className="">
-         <About />
-         <Services />
-         
-      </main>
-   );
+  return (
+    <main className="">
+      <About />
+      <Services />
+    </main>
+  );
 }
 
 export default Body;

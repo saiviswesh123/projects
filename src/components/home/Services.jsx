@@ -4,7 +4,7 @@ function Services() {
   return (
     <section className="about-us-section-container m-4">
       <div className="bg-white p-4 rounded-lg">
-        <div className="">
+        <div className="text-center">
           <h2 className="font-bold text-lg text-center about-us-section-title">
             Services
           </h2>
@@ -21,7 +21,7 @@ function Services() {
             you may have during your travel. Special 
             </p>
             <p>
-              Deals and Promotions: Keep
+              <b>Deals and Promotions:</b> Keep
               an eye out for our exclusive deals and promotions, ensuring you get
               the best value for your travel investment.
             </p>
