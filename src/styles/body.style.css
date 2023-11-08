@@ -1,5 +1,13 @@
-.main-section-container {
-  background-image:url("../assets/home-page-backgrounds/bg-3.jpg");
-  height:100vh;
-  background-size:cover;
+
+/* about us section styles */
+.about-us-section-container {
+   width:18rem;
+}
+
+.about-us-section-title {
+  font-family:"Roboto";
+}
+
+p {
+  font-family:"Roboto";
 }

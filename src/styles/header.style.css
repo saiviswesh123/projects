@@ -1,3 +1,11 @@
+/* 
+      Fonts
+      HEADINGS
+      Mukta, Lato, sans-serif
+      BODY
+      Mukta, Lato, sans-serif
+*/
+
 * {
    box-sizing:border-box;
 }
@@ -9,6 +17,7 @@
    display:flex;
    align-items:center;
    padding:10px;  
+   font-family:"Roboto";
 }
 
 .navbar-increase-height {
@@ -17,7 +26,7 @@
 
 .navbar--title {
    color:white;
-   font-family:Agbalumo;   
+   font-family:Mukta, Lato, sans-serif;   
    padding-left:20px;
    font-size:20px;
 }
@@ -25,17 +34,14 @@
 ul {
    color:white;
    display:flex;
-   align-items:center;
-   
+   align-items:center;   
 }
 
 ul > li {
    list-style:none;
    margin:10px;
-   font-family:"Roboto";
+   font-family:Mukta, Lato, sans-serif;
 }
-
-
 
 .hamburger-icon {
    position:relative;

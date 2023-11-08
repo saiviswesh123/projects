@@ -3,8 +3,7 @@ import heroSectionImage from "../../assets/home.jpg";
 
 function Hero() {
   return (
-    <hero>
-      <img src={heroSectionImage} alt="" />
+    <hero>      
     </hero>
   );
 }

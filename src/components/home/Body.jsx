@@ -10,7 +10,7 @@ function Body() {
       <main className="">
          <About />
          <Services />
-         <Contact />
+         
       </main>
    );
 }
