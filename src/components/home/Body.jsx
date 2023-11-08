@@ -3,9 +3,11 @@ import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 
+import "../../styles/body.style.css";
+
 function Body() {
    return (
-      <main>
+      <main className="">
          <About />
          <Services />
          <Contact />
