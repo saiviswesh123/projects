@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
   return (
-    <section className="m-4  ">
-      <div className="bg-white about-us-section-container p-4 rounded-lg text-center">
+    <section className="m-4 flex justify-center">
+      <div className="bg-white p-4 rounded-lg text-center about-us-section-container">
         <div>
           <h2 className="font-bold text-lg text-center about-us-section-title">
             Welcome to AeroBooker

@@ -1,12 +1,6 @@
-.hero--section-container {
+/* .hero--section-container {
    background-image:url("../src/assets/home.jpg");
-   display:flex;
-   background-size:cover;
-   background-repeat: no-repeat;
-   background-position:center;
-}
+   padding:30px;   
+   background-size:cover;    
+} */
 
-.footer--section {
-   background-color:#242329;
-   padding:10px;
-}

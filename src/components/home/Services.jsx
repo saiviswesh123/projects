@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <section className="about-us-section-container m-4">
+    <section className="m-4 flex justify-center about-us-section-container">
       <div className="bg-white p-4 rounded-lg">
         <div className="text-center">
           <h2 className="font-bold text-lg text-center about-us-section-title">
@@ -20,6 +20,7 @@ function Services() {
             available around the clock to assist with any questions or concerns
             you may have during your travel. Special 
             </p>
+            <br />
             <p>
               <b>Deals and Promotions:</b> Keep
               an eye out for our exclusive deals and promotions, ensuring you get

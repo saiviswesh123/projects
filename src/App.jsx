@@ -10,13 +10,10 @@ function App() {
   return (
     <>
       <Header />
-      <main className="hero--section-container flex">
-        <Hero />
-        <Body />
-      </main>
-      <footer className="footer--section">
-        <Contact />
-      </footer>
+
+      <Hero />
+      <Body />
+      <br />
     </>
   );
 }
