@@ -16,8 +16,7 @@ function Body() {
       </div>
       <div className="body-container">
         <About />
-        <Services />
-        
+        <Services />        
       </div>
       
       <div className="footer--section ">
