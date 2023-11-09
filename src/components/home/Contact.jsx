@@ -28,6 +28,7 @@ function Contact() {
           </p>
         </div>
          <br />
+         
         <div>
           <h1 className="font-bold text-lg about-us-section-title">Follow Us</h1>
           {/* icons */}
