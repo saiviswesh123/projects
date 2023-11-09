@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from "react";
+import { Outlet, Link } from "react-router-dom";
 import "../../styles/header.style.css";
+
+import FlightsAvailable from "../flights-available/FlightsAvailable";
 
 function Header() {
   const [hide, setHide] = useState(false);
@@ -24,7 +27,7 @@ function Header() {
                 className="text-white text-xl md:hidden ml-5"
                 onClick={handleHide}
               >
-                &#9776;
+                &#9776
               </button>
             </div>
           </div>
@@ -32,21 +35,11 @@ function Header() {
           <div className="md:hidden">
             {hide && (
               <ol className="mt-4 p-3">
-                <li className="m-2">
-                  <a href="#">Home</a>
-                </li>
-                <li className="m-2">
-                  <a href="#">Flights Available</a>
-                </li>
-                <li className="m-2">
-                  <a href="#">Book Ticket</a>
-                </li>
-                <li className="m-2">
-                  <a href="#">Boarding</a>
-                </li>
-                <li className="m-2">
-                  <a href="#">Feedback</a>
-                </li>
+                <li className="m-2">Home</li>
+                <li className="m-2">Flights Available</li>
+                <li className="m-2">Book Ticket</li>
+                <li className="m-2">Boarding</li>
+                <li className="m-2">Feedback</li>
               </ol>
             )}
           </div>
@@ -61,21 +54,24 @@ function Header() {
               <div>
                 <h1 className="text-xl p-3">AeroBooker</h1>
               </div>
-              <div className="ml-auto space-x-4">
-                <a href="#">Home</a>
+              <div className="ml-auto">
+                <ul>
+                  <li>Home</li>
 
-                <a href="#">Flights Available</a>
+                  <li>Flights Available</li>
 
-                <a href="#">Book Ticket</a>
+                  <li>Book Ticket</li>
 
-                <a href="#">Boarding</a>
+                  <li>Boarding</li>
 
-                <a href="#">Feedback</a>
+                  <li>Feedback</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </nav>
+      <Outlet />
     </>
   );
 }
