@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from '../home/Header'
 
 const FlightsAvailable = () => {
   return (
     <div>
-      <h1>Flights Available</h1>
+      <Header />
     </div>
   )
 }

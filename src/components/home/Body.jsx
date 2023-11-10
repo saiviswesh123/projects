@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./About";
 import Services from "./Services";
-import Contact from "./Contact";
+import Footer from "./Footer";
 import bgImage from "../../assets/home-page-backgrounds/bg-1.jpg";
 
 import "../../styles/body.style.css";
@@ -14,16 +14,17 @@ function Body() {
       <div>
         <img src={bgImage} alt="bg-image" className="w-screen h-auto" />
       </div>
+
+      {/* about and services sections */}
       <div className="body-container">
         <About />
-        <Services />        
-      </div>
-      
-      <div className="footer--section ">
-      <Contact />
+        <Services />
       </div>
 
-      
+      {/* footer section */}
+      <div className="footer--section ">
+        <Footer />
+      </div>
     </main>
   );
 }

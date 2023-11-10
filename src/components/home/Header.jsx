@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "../../styles/header.style.css";
 
-import FlightsAvailable from "../flights-available/FlightsAvailable";
+import FlightsAvailable from "../pages/FlightsAvailable";
 
 function Header() {
   const [hide, setHide] = useState(false);
@@ -56,22 +56,31 @@ function Header() {
               </div>
               <div className="ml-auto">
                 <ul>
-                  <li>Home</li>
+                  <li className="text-semibold">
+                    <Link to="/">Home</Link>
+                  </li>
 
-                  <li>Flights Available</li>
+                  <li className="text-semibold">
+                    <Link to="/flights-available">Flights Available</Link>
+                  </li>
 
-                  <li>Book Ticket</li>
+                  <li className="text-semibold">
+                    <Link to="/book-tickets">Book Ticket</Link>
+                  </li>
 
-                  <li>Boarding</li>
+                  <li className="text-semibold">
+                    <Link to="/boarding">Boarding</Link>
+                  </li>
 
-                  <li>Feedback</li>
+                  <li className="text-semibold">
+                    <Link to="/feedback">Feedback</Link>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </nav>
-      <Outlet />
     </>
   );
 }

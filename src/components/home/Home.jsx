@@ -1,17 +1,16 @@
-import React from 'react'
-import Header from './Header'
-import Hero from './Hero'
-import Body from './Body'
-import Contact from './Contact'
+import React from "react";
+import { Outlet, Link } from "react-router-dom";
+import Header from "./Header";
+import Body from "./Body";
+
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Hero />
+      <Header />      
       <Body />      
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
