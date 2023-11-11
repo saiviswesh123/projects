@@ -1,16 +1,16 @@
-import React from "react";
-import { useState } from "react";
-import { Outlet, Link } from "react-router-dom";
-import "../../styles/header.style.css";
+import React from "react"
+import { useState } from "react"
+import { Link } from "react-router-dom"
+import "../../styles/header.style.css"
 
-import FlightsAvailable from "../pages/FlightsAvailable";
+
 
 function Header() {
-  const [hide, setHide] = useState(false);
+  const [hide, setHide] = useState(false)
 
   const handleHide = () => {
-    setHide((prevState) => !prevState);
-  };
+    setHide((prevState) => !prevState)
+  }
 
   return (
     <>
@@ -27,7 +27,7 @@ function Header() {
                 className="text-white text-xl md:hidden ml-5"
                 onClick={handleHide}
               >
-                &#9776
+                <span class="material-symbols-outlined">menu</span>
               </button>
             </div>
           </div>
@@ -35,11 +35,21 @@ function Header() {
           <div className="md:hidden">
             {hide && (
               <ol className="mt-4 p-3">
-                <li className="m-2">Home</li>
-                <li className="m-2">Flights Available</li>
-                <li className="m-2">Book Ticket</li>
-                <li className="m-2">Boarding</li>
-                <li className="m-2">Feedback</li>
+                <li className="m-2">
+                  <Link to="/">Home</Link>
+                </li>
+                <li className="m-2">
+                  <Link to="/flights-available">Flights Available</Link>
+                </li>
+                <li className="m-2">
+                  <Link to="/book-tickets">Book Ticket</Link>
+                </li>
+                <li className="m-2">
+                  <Link to="/boarding">Boarding</Link>
+                </li>
+                <li className="m-2">
+                  <Link to="/feedback">Feedback</Link>
+                </li>
               </ol>
             )}
           </div>
@@ -82,7 +92,7 @@ function Header() {
         </div>
       </nav>
     </>
-  );
+  )
 }
 
-export default Header;
+export default Header
