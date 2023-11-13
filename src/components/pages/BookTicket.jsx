@@ -5,6 +5,7 @@ const BookTicket = () => {
   return (
     <div>
       <Header />
+      <h1>Book Ticket</h1>
     </div>
   )
 }

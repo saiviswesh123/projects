@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../styles/contact.style.css";
+import "../../styles/footer.style.css";
 
 import linkedinIcon from "../../assets/icons/linkedin.png";
 import facebookIcon from "../../assets/icons/facebook.png";
@@ -10,7 +10,7 @@ import mastercard from "../../assets/icons/mastercard.png";
 import rupay from "../../assets/icons/rupay.png";
 import visa from "../../assets/icons/visa.png";
 
-function Contact() {
+function Footer() {
   return (
     <>
       {/* small screens */}
@@ -91,7 +91,7 @@ function Contact() {
               <p className="text-xl font-bold text-red-50 contact-us-title">
                 Payment Information
               </p>
-              <p>
+              <div>
                 <br />
                 <p className="text-base font-semibold text-gray-300">
                   Accepted Credit Cards
@@ -103,7 +103,7 @@ function Contact() {
                   <img src={rupay} alt="mastercard" />
                   <img src={visa} alt="mastercard" />
                 </div>
-              </p>
+              </div>
               <br />
               <p className="text-base text-gray-300">
                 Payment is due at the time of booking.
@@ -207,13 +207,14 @@ function Contact() {
               </p>
             </div>
           </div>
-          <br /><br />
+          <br />
+          <br />
           {/* payment information */}
           <div className="text-sm text-center">
             <p className="text-xl font-bold text-red-50 contact-us-title">
               Payment Information
             </p>
-            <p>
+            <div>
               <br />
               <p className="text-base font-semibold text-gray-300">
                 Accepted Credit Cards
@@ -225,7 +226,7 @@ function Contact() {
                 <img src={rupay} alt="mastercard" />
                 <img src={visa} alt="mastercard" />
               </div>
-            </p>
+            </div>
             <br />
             <p className="text-base text-gray-300">
               Payment is due at the time of booking.
@@ -250,9 +251,7 @@ function Contact() {
                 <img src={facebookIcon} alt="icon" />
                 <img src={instagramIcon} alt="icon" />
               </div>
-              
               Copyright © 2023 AeroBooker.com
-            
             </div>
           </div>
         </div>
@@ -261,4 +260,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Footer;

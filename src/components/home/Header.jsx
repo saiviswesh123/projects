@@ -3,8 +3,6 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import "../../styles/header.style.css"
 
-
-
 function Header() {
   const [hide, setHide] = useState(false)
 
@@ -27,7 +25,7 @@ function Header() {
                 className="text-white text-xl md:hidden ml-5"
                 onClick={handleHide}
               >
-                <span class="material-symbols-outlined">menu</span>
+                <span className="material-symbols-outlined">menu</span>
               </button>
             </div>
           </div>

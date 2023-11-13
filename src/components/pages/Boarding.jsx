@@ -5,6 +5,7 @@ const Boarding = () => {
   return (
     <div>
       <Header />
+      <h1>Boarding</h1>
     </div>
   )
 }
