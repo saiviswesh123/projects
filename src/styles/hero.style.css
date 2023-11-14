@@ -1,0 +1,23 @@
+.flight-title:hover {
+    background-color:#cccccc;
+    color:black;
+}
+
+.flight-title {
+    background-color:#f44336;
+}
+
+.flight-section-button {
+    background-color:#616161;
+    color:#ffffff;
+    padding:10px;
+}
+
+.hero-section-card {
+    width:40rem;
+    margin:20px;    
+}
+
+.discount {
+    background-color:orange;
+}

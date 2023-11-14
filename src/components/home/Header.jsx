@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
       {/* navbar small screens */}
-      <nav className="bg-white p-4 md:hidden">
+      <nav className="bg-white p-2 md:hidden">
         <div className="text-white font-semibold">
           <div className="flex font-bold">
             <div className="font-bold">
@@ -55,32 +55,32 @@ function Header() {
       </nav>
 
       {/* navbar large screens */}
-      <nav className="bg-black p-4 hidden sm:hidden md:block">
+      <nav className="bg-white hidden sm:hidden md:block">
         <div className="text-white font-semibold">
           <div className="font-bold">
             <div className="flex items-center">
               <div>
-                <h1 className="text-xl p-3">AeroBooker</h1>
+                <h1 className="m-3 text-2xl navbar--logo p-2">AeroBooker</h1>
               </div>
               <div className="ml-auto">
-                <ul>
-                  <li className="text-semibold">
+                <ul className="text-black">
+                  <li className="navbar--logo text-lg p-2">
                     <Link to="/">Home</Link>
                   </li>
 
-                  <li className="text-semibold">
+                  <li className="navbar--logo p-2">
                     <Link to="/flights-available">Flights Available</Link>
                   </li>
 
-                  <li className="text-semibold">
+                  <li className="navbar--logo p-2">
                     <Link to="/book-tickets">Book Ticket</Link>
                   </li>
 
-                  <li className="text-semibold">
+                  <li className="navbar--logo p-2">
                     <Link to="/boarding">Boarding</Link>
                   </li>
 
-                  <li className="text-semibold">
+                  <li className="navbar--logo p-2">
                     <Link to="/feedback">Feedback</Link>
                   </li>
                 </ul>

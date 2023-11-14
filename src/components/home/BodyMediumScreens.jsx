@@ -1,5 +1,7 @@
 import React from "react";
 
+import Hero from "./Hero";
+
 import "../../styles/body.style.css";
 import "../../App.css";
 
@@ -8,7 +10,7 @@ import facebook from "../../assets/icons/facebook.png";
 import instagram from "../../assets/icons/instagram.png";
 import linkedin from "../../assets/icons/linkedin.png";
 
-function Body() {
+const BodyMediumScreens = () => {
   return (
     <main>
       {/* offers section */}
@@ -48,7 +50,7 @@ function Body() {
           </h6>
         </div>
         {/* places */}
-        
+
         <div className="norway text-center">
           <div className="bg-white p-3 card">
             <h1 className="text-3xl">West Coast, Norway</h1>
@@ -69,8 +71,7 @@ function Body() {
             <button className="buy-tickets-button m-3">Buy Tickets</button>
           </div>
         </div>
-
-      </section>      
+      </section>
 
       {/* newsletter */}
       <section>
@@ -148,6 +149,6 @@ function Body() {
       </footer>
     </main>
   );
-}
+};
 
-export default Body;
+export default BodyMediumScreens;

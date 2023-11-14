@@ -2,6 +2,15 @@
   font-family: Raleway, Arial, Helvetica, sans-serif;
   background-color: #f1f1f1;
   padding-bottom:30px;
+  padding-top:30px;
+}
+
+.hero-section-container {
+  background-image:url("../assets/london2.jpg");
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+  padding:30px;
 }
 
 .offers-title {
