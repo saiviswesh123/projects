@@ -13,11 +13,11 @@ function Header() {
   return (
     <>
       {/* navbar small screens */}
-      <nav className="bg-black p-4 md:hidden">
+      <nav className="bg-white p-4 md:hidden">
         <div className="text-white font-semibold">
           <div className="flex font-bold">
             <div className="font-bold">
-              <h1 className="text-xl p-3">AeroBooker</h1>
+              <h1 className="text-xl p-3 navbar--logo">AeroBooker</h1>
             </div>
 
             <div className="w-full flex justify-end">
@@ -25,14 +25,14 @@ function Header() {
                 className="text-white text-xl md:hidden ml-5"
                 onClick={handleHide}
               >
-                <span className="material-symbols-outlined">menu</span>
+                <span className="material-symbols-outlined text-black navbar-menu">menu</span>
               </button>
             </div>
           </div>
 
           <div className="md:hidden">
             {hide && (
-              <ol className="mt-4 p-3">
+              <ol className="mt-4 p-3 text-black">
                 <li className="m-2">
                   <Link to="/">Home</Link>
                 </li>

@@ -1,0 +1,6 @@
+.boarding-section-container {
+   background-image:url("../assets/boarding.jpg");
+   height:100vh;
+   background-size:cover;
+   background-position:center;
+}

@@ -1,12 +1,18 @@
 import React from 'react'
 import Header from '../home/Header'
+import Footer from "../home/Footer"
+
+import "../../styles/boarding.style.css"
 
 const Boarding = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h1>Boarding</h1>
-    </div>
+      <div className="boarding-section-container"></div>
+      <footer className="footer--section">
+        <Footer />
+      </footer>
+    </>
   )
 }
 

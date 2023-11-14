@@ -1,13 +1,21 @@
-import React from 'react'
-import Header from '../home/Header'
+import React from "react";
+import Header from "../home/Header";
+import Footer from "../home/Footer";
+
+import "../../styles/bookticket.style.css"
 
 const BookTicket = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h1>Book Ticket</h1>
-    </div>
-  )
-}
+      <div className="book-ticket-container">
+        
+      </div>
+      <footer className="footer--section">
+        <Footer />
+      </footer>
+    </>
+  );
+};
 
-export default BookTicket
+export default BookTicket;

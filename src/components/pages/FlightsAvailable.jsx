@@ -33,7 +33,7 @@ const FlightsAvailable = () => {
           <h className="text-center font-bold text-xl">
             Select Origin and Destination
           </h>
-          <form action="" className="p-13">
+          <form className="p-13">
             <div className="mt-4">
               <label htmlFor="departure-location" className=" font-semibold ">
                 Select Departure Location
