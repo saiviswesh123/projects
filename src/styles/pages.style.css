@@ -1,0 +1,28 @@
+.boarding-section-container {
+   background-image:url("../assets/background-images/bg-image-2.jpg");
+   height:150vh;   
+   background-size:cover;
+   background-position:center;
+}
+
+.book-ticket-container {
+   background-image:url("../assets/background-images/bg-image-7.jpg");
+   height:150vh;      
+   background-size:cover;
+   background-position:center;
+}
+
+.flight-image {
+  height:200px;
+  width:200px;
+  margin:10px;
+}
+
+.flights-available-container {
+   background-image:url("../assets/background-images/bg-image-8.png");
+   height:150vh;
+   background-size:cover;
+   background-position:center;
+   image-rendering: pixelated;
+}
+

@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "../home/Header";
 
+import "../../styles/pages.style.css"
+import Footer from "../home/Footer";
 
-import "../../styles/bookticket.style.css"
 
 const BookTicket = () => {
   return (
     <>
       <Header />
-      <div className="book-ticket-container">
-        
+      <div className="book-ticket-container">        
       </div>
-      
+      <Footer />
     </>
   );
 };

@@ -2,9 +2,8 @@ import React from "react";
 import { useState } from "react";
 import Header from "../home/Header";
 
-
-import "../../styles/flights.style.css";
-import "../../styles/body.style.css";
+import "../../styles/pages.style.css";
+import Footer from "../home/Footer";
 
 const FlightsAvailable = () => {
   const [location, setLocation] = useState({
@@ -28,8 +27,8 @@ const FlightsAvailable = () => {
         <Header />
       </header>
 
-      <main className="flights-available-container  flex justify-center p-3">
-        <div className="bg-white h-auto pb-5 p-3 m-4">
+      <main className="flights-available-container flex justify-center p-3">
+        <div className="bg-white h-auto pb-5 p-3 m-4 hidden">
           <h className="text-center font-bold text-xl">
             Select Origin and Destination
           </h>
@@ -737,7 +736,7 @@ const FlightsAvailable = () => {
         </div>
       </main>
 
-      
+      <Footer />
     </>
   );
 };

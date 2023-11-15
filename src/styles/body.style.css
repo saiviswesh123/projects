@@ -1,3 +1,149 @@
+.body-container {
+   font-family:Raleway, Arial, Helvetica, sans-serif;
+}
 
+.home-page-container {  
+  background-color: #f1f1f1;
+  padding-bottom:30px;
+  padding-top:30px;
+}
+
+.offers-title {
+  color: #000000;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: normal;
+}
+
+.discount {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+/* places styles */
+.place-1 {
+  background-image: url("../assets/places/cinqueterre.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+.place-2 {
+  background-image: url("../assets/places/newyork.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+.place-3 {
+  background-image: url("../assets/places/sanfran.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+.place-4 {
+  background-image: url("../assets/places/pisa.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+.place-5 {
+  background-image: url("../assets/places/paris.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+/* places styles on medium devices */
+.place-1-lg {
+  background-image: url("../assets/places/cinqueterre.jpg");
+  height:300px;
+  width:300px;
+  background-size: cover;
+  background-position: center;  
+}
+
+.place-2-lg {
+  background-image: url("../assets/places/newyork.jpg");
+  height:300px;
+  width:300px;
+  background-size: cover;
+  background-position: center;  
+}
+
+.place-3-lg {
+  background-image: url("../assets/places/sanfran.jpg");
+  height:300px;
+  width:300px;
+  background-size: cover;
+  background-position: center;  
+}
+
+.place-4-lg {
+  background-image: url("../assets/places/pisa.jpg");
+  height:300px;
+  width:300px;
+  background-size: cover;
+  background-position: center;  
+}
+
+.place-5-lg {
+  background-image: url("../assets/places/paris.jpg");
+  height:300px;
+  width:300px;
+  background-size: cover;
+  background-position: center;  
+}
+
+/* explore nature styles */
+.norway {
+  background-image: url("../assets/places/ocean2.jpg"); 
+  height:30rem;
+  width:30rem;  
+  background-size: cover;
+}
+
+.mountains {
+  background-image: url("../assets/places/mountains2.jpg");
+  height:30rem;
+  width:30rem;
+  background-size: cover;
+}
+
+.roundtrip {
+  color: #000000;
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: normal;
+}
+
+.buy-tickets-button {
+  background-color:black;
+  color:white;
+  padding:10px;  
+}
+
+.buy-tickets-button:hover {
+  background-color:grey;
+  color:black;
+}
+
+.subscribe-button {
+   background-color:#f44336;
+   padding:10px;   
+}
+
+.subscribe-button:hover {
+   background-color:grey;
+   color:black;
+}
 
 

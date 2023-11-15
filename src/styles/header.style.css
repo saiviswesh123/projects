@@ -1,8 +1,4 @@
-* {
-   box-sizing:border-box;
-}
-
-nav {
+.header-container {
    font-family:Raleway, Arial, Helvetica, sans-serif;
 }
 
@@ -23,11 +19,8 @@ nav {
 
 .navbar--logo:hover {
    background-color:#f44336;
-   color:white;
-   
+   color:white;   
 }
-
-
 
 ul {
    color:white;
@@ -37,8 +30,7 @@ ul {
 
 ul > li {
    list-style:none;
-   margin:10px;
-   font-family:Mukta, Lato, sans-serif;
+   margin:10px;   
 }
 
 .hamburger-icon {
