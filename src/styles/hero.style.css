@@ -7,6 +7,11 @@
     background-color:#f44336;
 }
 
+.hotel-title:hover {
+   background-color:#cccccc;
+    color:black;
+}
+
 .flight-section-button {
     background-color:#616161;
     color:#ffffff;
@@ -19,5 +24,6 @@
 }
 
 .discount {
-    background-color:orange;
+    background-color:#ff5722;
+    font-size:15px;
 }

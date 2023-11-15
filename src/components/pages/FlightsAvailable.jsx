@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Header from "../home/Header";
-import Footer from "../home/Footer";
+
 
 import "../../styles/flights.style.css";
 import "../../styles/body.style.css";
@@ -737,9 +737,7 @@ const FlightsAvailable = () => {
         </div>
       </main>
 
-      <footer className="footer--section">
-        <Footer />
-      </footer>
+      
     </>
   );
 };

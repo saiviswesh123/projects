@@ -135,17 +135,7 @@ function Body() {
         </div>
       </section>
 
-      {/* footer section */}
-      <footer>
-        <div className="text-center mb-10 mt-10">
-          <h1 className="text-2xl">Find Us On</h1>
-          <div className="flex justify-center">
-            <img src={facebook} alt="facebook" className="m-3" />
-            <img src={instagram} alt="instagram" className="m-3" />
-            <img src={linkedin} alt="linkedin" className="m-3" />
-          </div>
-        </div>
-      </footer>
+      
     </main>
   );
 }
